@@ -8,7 +8,6 @@ var _private = require('./private/private.json')
 
 var port = process.env.PORT || 3000;
 
-mongoose.set('useFindAndModify', false);
 
 mongoose.Promise = global.Promise;
 
